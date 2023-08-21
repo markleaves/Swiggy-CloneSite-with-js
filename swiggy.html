@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Site</title>
+    <link rel="icon" href="swiggy_logo.png">
+    <link rel="stylesheet" href="swiggy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Changa+One&family=Fira+Sans&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="img_content">
+            <img src="swiggy_logo.png" alt="swiggy_logo">
+
+            <p class="thiru">Thiruvanmiyur</p>
+            <p style="color: gray;">Thiruvanmiyur,
+                Thiruvalluvar Nagar. </p>
+            <i class="bi bi-caret-down"></i>
+        </div>
+
+        <ol class="icon_cotent">
+            <li><i class=" icon bi bi-search"></i> Search</li>
+            <li><i class="icon bi-check2-circle"></i> Offers</li>
+            <li><i class="icon bi-info-circle-fill"></i> Help</li>
+            <li><i class="icon bi bi-person"></i> Sign In</li>
+            <li><i class="icon bi bi-cart-check"></i> Cart</li>
+        </ol>
+    </div>
+
+    <!-- background color sesction starts -->
+
+    <div class="bg_color">
+
+        <div class="card_section">
+
+            <div class="card1">
+                <img src="awurei8ypqkafoqay9ym.jpeg" alt="">
+
+            </div>
+            <div class="card2">
+                <img src="pneknawbadtvceqzwiep.webp" alt="">
+            </div>
+            <div class="card3">
+                <img src="zpkkdkmvlj5cuvqbc50t.webp" alt="">
+            </div>
+            <div class="card4">
+                <img src="s5ug2key6e2sptaxku5v.webp" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- background color section ends -->
+
+    <!-- 2nd_nav_bar_section starts -->
+
+
+    <div class="second_nav_bar_section">
+        <div class="no_of_res">
+            <h3>670 restaurants</h3>
+
+        </div>
+        <ol class="right_section">
+            <li>Relevance</li>
+            <li>Delivery Time</li>
+            <li>Rating</li>
+            <li>Cost: Low To High</li>
+            <li>Cost: High To Low</li>
+            <li>Filters</li>
+        </ol>
+
+    </div>
+    <hr>
+
+    <!-- 2nd_nav_bar_section ends -->
+    <!-- dom image addding section starts -->
+
+    <div class="main_container">
+
+    </div>
+    <script>
+        let foodlist = [{
+            id: 1,
+            name: "Sangeetha Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 4.9,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/puci5j1isadzx532bco3",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+        },
+
+        {
+            id: 2,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 3.7,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bkwkwux4bzs19qoylumo",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+
+        },
+
+        {
+            id: 3,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 3.2,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/qmpmqzlnx5tjok1nuzai",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+
+        },
+        {
+            id: 4,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 4.7,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/cndsoe44e7bfmivdobxa",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+
+        },
+        {
+            id: 5,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 4.1,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/dxbhclodfh0m6oegdqeh",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+
+        },
+        {
+            id: 6,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 3.5,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/f3ed03cce0a6af7d47b1a936a2c68dc8",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+
+        },
+        {
+            id: 7,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 4.5,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/s5hw232nz6c3zqldtp4h",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+        },
+        {
+            id: 8,
+            name: "Burger King",
+            cuisine: "South Indian",
+            rating: 4.5,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/e33e1d3ba7d6b2bb0d45e1001b731fcf",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+        },
+        {
+            id: 9,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 4.5,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/195876a3181ef63f76e45e3a7b49b585",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+
+        },
+        {
+            id: 10,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 4.5,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ee5f8e06b300efc07c9fe3f4df40dfc4",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+        },
+
+
+        {
+            id: 11,
+            name: " Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 3.5,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/ebsxy353whnusnxlz6kq",
+            timing: "22minutes",
+            rs: "&#8377; 300 For 2",
+            view: "Quick View"
+
+        },
+
+        {
+            id: 12,
+            name: "Sangeetha Veg Restaurant",
+            cuisine: "South Indian",
+            rating: 3.6,
+            imgurl: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/a6ecuj41xpv9lrwiog98",
+            timing: "22minutes",
+            rs: " &#8377; 300 For 2",
+            view: "Quick View"
+
+        },
+
+
+        ];
+
+
+        let hello = document.querySelector(".main_container");
+        let cards = document.createElement("div");
+        cards.classList.add("row");
+        hello.appendChild(cards);
+
+        newcolumn(foodlist);
+        function newcolumn(food) {
+            foodlist.forEach(function (e) {
+
+                let div = document.createElement("div");
+                div.classList.add("col");
+                cards.appendChild(div);
+
+                let img = document.createElement("img");
+                img.src = e.imgurl;
+                div.appendChild(img);
+
+                let div2 = document.createElement("div");
+                div2.classList.add("col_card");
+                div.appendChild(div2)
+
+                let heading = document.createElement("h3");
+                heading.innerHTML = e.name;
+                div2.appendChild(heading);
+
+                let cuisine = document.createElement("h5");
+                cuisine.innerHTML = e.cuisine;
+                div2.appendChild(cuisine);
+                cuisine.style.color = "gray";
+
+                let div3 = document.createElement("div");
+                div3.classList.add("flex");
+                div.appendChild(div3);
+
+                let sub = document.createElement("p");
+                sub.classList.add("green")
+                sub.innerHTML = `&starf;${e.rating}`
+                sub.style.color = "white";
+                sub.style.fontWeight = "600";
+                div3.appendChild(sub);
+
+                let sub1 = document.createElement("p");
+                sub1.innerHTML = e.timing;
+                div3.appendChild(sub1);
+
+                let sub2 = document.createElement("p");
+                sub2.innerHTML = e.rs;
+                div3.appendChild(sub2);
+
+                let hm = document.createElement("hr")
+                hm.classList.add("line")
+                div.appendChild(hm);
+
+
+                let div4 = document.createElement("div")
+                div4.classList.add("butt");
+                div.appendChild(div4);
+
+
+                let button = document.createElement("button");
+                button.innerHTML = e.view;
+                div4.appendChild(button);
+
+                // rating bg color change 
+
+                if (e.rating < 4) {
+                    sub.style.backgroundColor = "orange";
+                }
+
+
+
+
+                // else{
+                //     sub.style.backgroundColor="pink";
+
+                // }
+
+
+            })
+        }
+
+        let lists = document.querySelector(".right_section")
+        lists.children[2].addEventListener("click", rate)
+
+        function rate() {
+            let ratingfilter = foodlist.sort(function (a, b) {
+                return b.rating - a.rating;
+               
+
+            });
+
+            let column = document.querySelectorAll(".col");
+            column.forEach(function (r) {
+                r.remove();
+            })
+            newcolumn(ratingfilter)
+
+        }
+
+
+
+    </script>
+
+    <!-- dom image addding section ends -->
+</body>
+
+</html>
